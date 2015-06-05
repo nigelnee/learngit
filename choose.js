@@ -48,12 +48,10 @@ function bind(target,type,handler){
 }
 
 
-function init(){
+(function init(){
 	bind(document.documentElement,"mouseup",getSelectedText());
 
 	console.log("init ok!");
-}
+})()
 
 
-
-init();
